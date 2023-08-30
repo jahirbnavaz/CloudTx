@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'mykgsapp'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_351A943D98074B55BB23A4E5EDE10304 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2B59C8AC8CA04D24AED99CD79873488A }}
           package: '*.jar'
