@@ -75,5 +75,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: ${{ env.mykgsapp }}
-          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2B59C8AC8CA04D24AED99CD79873488A }}
           package: '*.jar'
